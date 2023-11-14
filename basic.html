@@ -10,13 +10,13 @@
         <style>
         
             p {
-                color:darkgrey;
+                color:#a9a9a9;
                 font-size: 16px;
                 font-family: 'open sans-serif;', serif;
                 width: 50%;
             }
             #quote {
-                color: magenta;
+                color: grey;
                 font-style: "italic;"
                 border: solid lightskyblue 2px;
             }
@@ -43,10 +43,16 @@
                 border: 1px green;
             }
             #long {
+                width: 410px;
                 height: 10px;
                 background: red;
                 border: 1px red;
-
+            
+            }
+            .book {
+                border: 6px dotted skyblue;
+            }
+            
             
 
             
@@ -57,7 +63,7 @@
     <body>
 
         <h1>A little bit about me!</h1>
-        <p> My name is Christopher Davis
+        <p>My name is <strong>Christopher Davis <strong>, and I am from from <i>Baltimore<i/>.</i>
         
         <h2>My intro</h2>
         <!-- Include: a brief intro to yourself -- where you're from, what you like to do for fun, what you're studying, and who your community or family is. -->
@@ -67,7 +73,7 @@
         <h2>My handles</h2>
         <!-- Include: at least two handles for your social media accounts -->
         <!-- Tags to use: <p>, <a> -->
-        <a> Instagram: christopher.ddd Snapchat: christophermddd 
+        <a> I am on <a href="https://www.instagram.com/christopher.ddd/"  target="_blank"> Instagram</a>.</p>
 
     
         <h2> ~ Challenge: Why is my text maroon? ~</h2>
@@ -79,7 +85,7 @@
         <!-- Include: "large_wink.png" as an image -->
         <!-- Tags to use: <img> -->
         <!-- Hint! Use 'reference_sheet.html', which you downloaded with this file, to remember how to include an image. -->
-        <img src="crying_jordan.png">
+        <img src="crying_jordan.png" height=200px>
     
         <h2>Why I'm a great student</h2>
         <!-- Include: Use 'reference_sheet.html' to figure out how to add an unordered list here -->
@@ -95,9 +101,9 @@
         <!-- Include: an ordered list -->
         <!-- Tags to use: <ol>, <li>, <a> -->
         <ol>
-            <li>Michael Phelps</li>
-            <li>Babe Ruth</li>
-            <li>Thurgood Marshall</li>
+            <li><a href= "https://www.teamusa.com/profiles/michael-phelps"  target="_blank"> Michael Phelps</a></li>
+            <li><a href= "https://baberuth.com" target="_blank">Babe Ruth</a></li>
+            <li><a href= "https://www.uscourts.gov/educational-resources/educational-activities/justice-thurgood-marshall-profile-brown-v-board"target="_blank"> Thurgood Marshall</a></li>
         <ol>
 
 
@@ -105,7 +111,7 @@
         <!-- Challenge! Use the internet to figure out what a <br> tag is. Write a short poem about your college experience so far. -->
         <!-- Tags to use: <p> tags for your lines of poetry, and at least two <br> tags -->
         
-        <p> College is what you make of it.<br>
+        <p id="quote"> College is what you make of it.<br>
             Will you find your fit or feel self pit? <br>
             Or maybe its time to commit. <br>
             But overall, I will never quit.<br>
@@ -117,18 +123,18 @@
         <!-- Include: a quote from a book -- quote should be in italics and gray, title of source should be in an <h3> tag -->
         <!-- Tags to use: <h3>, <p> with an id named 'quote' that is styled in the <style> section -->
 
-        <p style="font-style: italic;">"I've failed over and over and over again in my life and that is why I succeed."</h3>
+        <p style=font-style= italic>"I've failed over and over and over again in my life and that is why I succeed.><h3></h3>
 
-        <h3>-Michael Jordan</h3>
+        <h3>Michael Jordan</h3>
         
 
         <h2>These are more of my favorite books</h2>
         <!-- Include: an unordered list of at least three books, list items should have a border -->
         <!-- Tags to use: <ul>, <li> with classes named 'book' that is styled in the <style> section -->
             <ul>
-                <li style="border-style: solid;">The Great Gatsby</li>
-                <li style="border-style: solid;">Their Eyes Were Watching God</li>
-                <li style="border-style: solid;">Nineteen Eighty-Four </li>
+                <li class="book">The Great Gatsby, F. Scott Fitzgerald</li>
+                <li class="book">Their Eyes Were Watching God, Zora Neale Hurston</li>
+                <li class="book">Nineteen Eighty-Four, George Orwell</li>
 
             
         <h2>Here's how I normally spend my weekend</h2>
