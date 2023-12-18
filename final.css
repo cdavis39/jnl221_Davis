@@ -1,46 +1,61 @@
 /*This is the CSS page for our final template.*/
 
 .footer p { /* This is how you add styles for only the p text within the footer. */
-	background-color: #cccccc;
+	background-color: #fcbe9b;
 	text-align: center;
 	margin-bottom: 0;
-	font-family: 'Times New Roman'serif;
+	font-family: 'Caveat', 
 	font-size: 20px;
 }
 .header {
 	height: auto;
 	font-weight: bold;
-	font-size: 50px;
+	font-size: 30px;
 	text-align: center;
-	font-family: 'Georgia', serif;
-	background-color: yellow;
+	font-family: 'Spectral', serif;
+	background-color: #fcbe9b;
+	color: #2e2e2e;
+}
+p {
+	font-family: 'Spectral', serif;
+	font-size: 20px;
+	height: auto;
 }
 h4 {
 	font-style: italic;
-	font-size: 40px;
+	font-size: 30px;
 	font-family: 'Georgia', serif;
+	height:auto;
 }
 h3 {
-	font-size: 30px;
+	font-size: 20px;
+	height:auto;
 }
-
+img {
+	float: right;
+	margin-right: 5%;
+	margin-left: 20%;
+	height: auto;
+}
+body {background-color: white;: 
+}
 
 /*Don't worry about this section yet*/
 @media only screen and (max-width: 767px)
 {
  .list {
- 	float: none;
+ 	float: right;
  	min-width: 90%;
  	margin-left: 10px;
  	margin-bottom: 30px;
  	margin-top: 30px;
  }
- #iframe {
+ iframe {
  	min-width: 90%;
- 	margin-right: 10px;
- }
-#img {
-	float: right;
-	margin-right: 5%;
-	margin-left: 5%;
+ 	margin-right: 20px;
+ 	height:auto;
+}
+.footer p {
+	background-color: #fcbe9b;
+}
 }
